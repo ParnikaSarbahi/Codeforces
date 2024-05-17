@@ -1,0 +1,10 @@
+s1=input()
+s2=input()
+a=s1.upper()
+b=s2.upper()
+if(a>b):
+    print(1)
+elif(a<b):
+    print(-1)
+elif(a==b):
+    print(0)

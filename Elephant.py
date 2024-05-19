@@ -1,0 +1,19 @@
+x=int(input())
+s=0
+c=0
+while(s+5<=x):
+    s+=5
+    c+=1
+while(s+4<=x):
+    s+=4
+    c+=1
+while(s+3<=x):
+    s+=3
+    c+=1
+while(s+2<=x):
+    s+=2
+    c+=1
+while(s+1<=x):
+    s+=1
+    c+=1
+print(c)
